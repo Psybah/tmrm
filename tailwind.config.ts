@@ -66,9 +66,9 @@ export default {
 				// Custom colors for TMRM
 				tmrm: {
 					'green': {
-						DEFAULT: '#0C6E4E',
-						light: '#1A8A65',
-						dark: '#124734',
+						DEFAULT: '#3E4095',
+						light: '#6F71C3',
+						dark: '#303173',
 					},
 					'gold': {
 						DEFAULT: '#D4AF37',

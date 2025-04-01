@@ -38,9 +38,9 @@ const Index = () => {
       <main className="min-h-screen">
         <Hero
           title="The Muslim Righteous Movement"
-          subtitle="A Beacon of Hope and Compassion"
+          subtitle="منارة الأمل والرحمة"
           description="Dedicated to alleviating the suffering of the underprivileged through Islamic charity and community service."
-          backgroundImage="/lovable-uploads/f76309af-9e03-4926-96a9-b22bfc963472.png"
+          backgroundImage="/lovable-uploads/hero.jpeg"
         />
         
         {/* About Section */}

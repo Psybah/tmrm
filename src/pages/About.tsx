@@ -30,19 +30,19 @@ const About = () => {
 
   const leaders = [
     {
-      name: "Imam Abdullah Rahman",
-      role: "Founder & Spiritual Leader",
-      image: "https://images.unsplash.com/photo-1566753323558-f4e0952af115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=320&q=80"
+      name: "Sen. Sharafadeen Abiodun Alli",
+      role: "Ekarun Balodun of Ibadanland",
+      image: "/sara.png"
     },
     {
-      name: "Hajia Maryam Olohunde",
-      role: "Women's Wing Leader",
-      image: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=320&q=80"
+      name: "Hon. (Engr.) Aderemi Oseni",
+      role: "Federal Lawmaker",
+      image: "/aderemi.png"
     },
     {
-      name: "Brother Malik Ibrahim",
-      role: "Community Outreach Director",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=320&q=80"
+      name: "Alhaji (Hon.) Taofiq Adesina",
+      role: "Senator",
+      image: "/taofiq.png"
     }
   ];
 

@@ -108,7 +108,7 @@ const Index = () => {
             </div>
             
             <div className="text-center mt-10">
-              <Button asChild variant="outline" className="border-white text-white hover:bg-white hover:text-tmrm-green-dark">
+              <Button asChild variant="outline" className="border-white text-white hover:bg-white text-tmrm-green-dark hover:text-tmrm-green-dark">
                 <Link to="/initiatives">
                   View All Initiatives
                 </Link>
@@ -171,12 +171,12 @@ const Index = () => {
                   Donate Now
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-tmrm-green">
+              <Button asChild size="lg" variant="outline" className="border-white text-tmrm-green-dark hover:bg-white hover:text-tmrm-green-dark">
                 <Link to="/contact">
                   Contact Us
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-tmrm-green">
+              <Button asChild size="lg" variant="outline" className="border-white text-tmrm-green-dark hover:bg-white hover:text-tmrm-green-dark">
                 <a href="https://wa.me/2347055034490" target="_blank" rel="noopener noreferrer" className="flex items-center">
                   <MessageCircle size={18} className="mr-2" /> 
                   Join Our WhatsApp

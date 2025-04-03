@@ -11,19 +11,20 @@ const Initiatives = () => {
       title: "Annual Ramadan Lectures",
       description: "Our annual Ramadan lectures provide a platform for deep exploration of Islamic teachings during this holy month. We invite respected scholars to offer insights that help Muslims grow spiritually and apply Islamic principles in their daily lives.",
       icon: <Calendar size={24} />,
-      image: "https://images.unsplash.com/photo-1584652584192-7a341a52d227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+      image: "/tmrm/ramadan-lectures.jpg"
     },
     {
       title: "Weekly Sunday Meetings",
       description: "Every Sunday, we host gatherings at Apata Kekere Mosque to discuss Islamic teachings and their application in contemporary society. These meetings foster community bonds and ensure continuous learning and growth.",
       icon: <Users size={24} />,
-      image: "https://images.unsplash.com/photo-1603738116595-bcb14db28c35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+      image: "/tmrm/gathering.jpg"
     },
     {
       title: "Asalatu Prayers",
       description: "Led by our women's wing, Asalatu prayer sessions provide a dedicated space for women in our community to connect spiritually, support each other, and organize charitable activities focused on the unique needs of women and children.",
       icon: <Users size={24} />,
-      image: "https://images.unsplash.com/photo-1563804446461-b8abfca96d24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+      image: " /tmrm/asalatu.jpg "
+      
     },
     {
       title: "Monthly Hospital Visits",
@@ -35,13 +36,13 @@ const Initiatives = () => {
       title: "Islamic Education",
       description: "We organize regular classes on Quranic studies, Hadith interpretation, and Islamic jurisprudence for all age groups, ensuring our community has access to authentic Islamic knowledge.",
       icon: <BookOpen size={24} />,
-      image: "https://images.unsplash.com/photo-1603122553884-71ee6dde0b81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+      image: " /tmrm/education.jpg"
     },
     {
       title: "Community Outreach",
       description: "Through regular outreach activities, we identify and assist vulnerable community members with food, clothing, and other essential needs, embodying the Islamic principle of caring for one's neighbors.",
       icon: <HeartHandshake size={24} />,
-      image: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+      image: " /tmrm/outreach.jpg"
     }
   ];
 
@@ -52,7 +53,7 @@ const Initiatives = () => {
         <Hero
           title="Our Initiatives"
           description="Discover the programs and activities through which we serve our community and promote Islamic values."
-          backgroundImage="https://images.unsplash.com/photo-1599475769344-9eeebbfd18e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+          backgroundImage="/tmrm/initiative.jpg"
           showCta={false}
         />
         

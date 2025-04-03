@@ -21,7 +21,7 @@ const Hero: React.FC<HeroProps> = ({
 }) => {
   return (
     <div 
-      className="relative h-[70vh] min-h-[500px] bg-cover bg-center flex items-center" 
+      className="relative h-[70vh] min-h-[600px] bg-cover bg-center flex items-center" 
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="absolute inset-0 bg-black opacity-60"></div>

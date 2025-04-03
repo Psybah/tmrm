@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Hero from '@/components/shared/Hero';
 import InitiativeCard from '@/components/shared/InitiativeCard';
@@ -6,11 +5,16 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
-import { Calendar, Users, CircleDollarSign, Link as LinkIcon, MessageCircle } from 'lucide-react';
+import { Calendar, Users, CircleDollarSign, Link as LinkIcon, MessageCircle, BookOpen, Clock, CalendarDays } from 'lucide-react';
 import ScrollToTop from '@/components/shared/ScrollToTop';
 import TestimonialsCarousel from '@/components/shared/TestimonialsCarousel';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { useIslamicData } from '@/hooks/useIslamicData';
+import { Skeleton } from '@/components/ui/skeleton';
 
 const Index = () => {
+  const { prayerTimes, islamicEvents, dailyVerse, loading, error } = useIslamicData();
+  
   const testimonials = [
     {
       id: 1,
@@ -53,7 +57,7 @@ const Index = () => {
                   The Muslim Righteous Movement (TMRM) is a charitable organization founded in 2020 by a dedicated group of Muslims committed to serving humanity through the principles of Islam.
                 </p>
                 <p>
-                  Our mission is to alleviate the suffering of underprivileged communities through sustainable development projects, educational initiatives, and humanitarian aid. Based at the Apata Kekere Mosque in Ibadan, Nigeria, we strive to be a beacon of hope and compassion.
+                  Our mission is to alleviate the suffering of underprivileged communities and individuals through sustainable development projects, educational initiatives, and humanitarian aid. Based at the Apata Kekere Mosque in Ibadan, Nigeria, we strive to be a beacon of hope and compassion.
                 </p>
                 <div className="pt-2">
                   <Button asChild variant="outline" className="border-tmrm-green text-tmrm-green hover:bg-tmrm-green hover:text-white">
@@ -65,7 +69,7 @@ const Index = () => {
               </div>
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="/lovable-uploads/251840ba-72c4-4efd-903f-a4e7c83cc30a.png" 
+                  src="/tmrm/mosque.jpg" 
                   alt="Mosque" 
                   className="w-full h-full object-cover"
                 />
@@ -144,16 +148,132 @@ const Index = () => {
           </div>
         </section>
         
-        {/* Testimonials */}
+        {/* Muslim Features & Testimonials Section */}
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center mb-12">
-              <h2 className="section-title">Testimonials</h2>
+              <h2 className="section-title">Islamic Resources & Testimonials</h2>
               <p className="text-lg">
-                Hear from those whose lives have been touched by our work.
+                Stay connected with your faith and hear from those whose lives have been touched by our work.
               </p>
             </div>
             
+            {/* Muslim Features Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              {/* Quranic Verse Card */}
+              <Card className="bg-white hover:shadow-lg transition-shadow border-t-4 border-t-tmrm-gold">
+                <CardHeader>
+                  <div className="flex items-center gap-2 text-tmrm-gold mb-2">
+                    <BookOpen size={20} />
+                    <CardTitle className="text-lg">Verse of the Day</CardTitle>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  {loading ? (
+                    <div className="space-y-4">
+                      <Skeleton className="h-8 w-full" />
+                      <Skeleton className="h-4 w-3/4" />
+                      <Skeleton className="h-4 w-1/2" />
+                    </div>
+                  ) : error ? (
+                    <p className="text-red-500 text-sm">{error}</p>
+                  ) : dailyVerse ? (
+                    <>
+                      <div className="text-right mb-4 font-arabic text-xl leading-relaxed">
+                        {dailyVerse.arabic}
+                      </div>
+                      <p className="text-gray-700 italic mb-2">
+                        "{dailyVerse.translation}"
+                      </p>
+                      <p className="text-sm text-gray-500">
+                        {dailyVerse.reference}
+                      </p>
+                    </>
+                  ) : null}
+                </CardContent>
+              </Card>
+
+              {/* Prayer Times Card */}
+              <Card className="bg-white hover:shadow-lg transition-shadow border-t-4 border-t-tmrm-gold">
+                <CardHeader>
+                  <div className="flex items-center gap-2 text-tmrm-gold mb-2">
+                    <Clock size={20} />
+                    <CardTitle className="text-lg">Prayer Times</CardTitle>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  {loading ? (
+                    <div className="space-y-2">
+                      {[...Array(5)].map((_, i) => (
+                        <Skeleton key={i} className="h-6 w-full" />
+                      ))}
+                    </div>
+                  ) : error ? (
+                    <p className="text-red-500 text-sm">{error}</p>
+                  ) : prayerTimes ? (
+                    <div className="space-y-2">
+                      <div className="flex justify-between items-center">
+                        <span className="font-medium">Fajr</span>
+                        <span className="text-tmrm-green">{prayerTimes.fajr}</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="font-medium">Dhuhr</span>
+                        <span className="text-tmrm-green">{prayerTimes.dhuhr}</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="font-medium">Asr</span>
+                        <span className="text-tmrm-green">{prayerTimes.asr}</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="font-medium">Maghrib</span>
+                        <span className="text-tmrm-green">{prayerTimes.maghrib}</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="font-medium">Isha</span>
+                        <span className="text-tmrm-green">{prayerTimes.isha}</span>
+                      </div>
+                    </div>
+                  ) : null}
+                </CardContent>
+              </Card>
+
+              {/* Islamic Calendar Card */}
+              <Card className="bg-white hover:shadow-lg transition-shadow border-t-4 border-t-tmrm-gold">
+                <CardHeader>
+                  <div className="flex items-center gap-2 text-tmrm-gold mb-2">
+                    <CalendarDays size={20} />
+                    <CardTitle className="text-lg">Islamic Calendar</CardTitle>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  {loading ? (
+                    <div className="space-y-4">
+                      {[...Array(3)].map((_, i) => (
+                        <div key={i} className="space-y-2">
+                          <Skeleton className="h-4 w-1/3" />
+                          <Skeleton className="h-4 w-2/3" />
+                          <Skeleton className="h-3 w-1/2" />
+                        </div>
+                      ))}
+                    </div>
+                  ) : error ? (
+                    <p className="text-red-500 text-sm">{error}</p>
+                  ) : islamicEvents.length > 0 ? (
+                    <div className="space-y-4">
+                      {islamicEvents.slice(0, 3).map((event, index) => (
+                        <div key={index} className="border-b border-gray-100 pb-3 last:border-0">
+                          <div className="text-sm text-tmrm-green font-medium">{event.date}</div>
+                          <div className="font-medium">{event.title}</div>
+                          <div className="text-sm text-gray-600">{event.hijriDate}</div>
+                        </div>
+                      ))}
+                    </div>
+                  ) : null}
+                </CardContent>
+              </Card>
+            </div>
+            
+            {/* Existing Testimonials */}
             <TestimonialsCarousel testimonials={testimonials} />
           </div>
         </section>

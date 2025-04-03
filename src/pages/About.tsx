@@ -53,7 +53,7 @@ const About = () => {
         <Hero
           title="About Us"
           description="Learn about our mission, history, and the people behind The Muslim Righteous Movement."
-          backgroundImage="https://images.unsplash.com/photo-1588624509638-8151fb946c16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+          backgroundImage="/tmrm/about.jpg"
           showCta={false}
         />
         

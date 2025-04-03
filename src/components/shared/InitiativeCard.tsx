@@ -1,39 +1,43 @@
-
 import React from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { motion } from 'framer-motion';
 
 interface InitiativeCardProps {
   title: string;
   description: string;
-  icon?: React.ReactNode;
-  image?: string;
+  icon: React.ReactNode;
+  image: string;
+  className?: string;
 }
 
 const InitiativeCard: React.FC<InitiativeCardProps> = ({
   title,
   description,
   icon,
-  image
+  image,
+  className = ''
 }) => {
   return (
-    <Card className="overflow-hidden h-full hover:shadow-lg transition-shadow">
-      {image && (
-        <div className="w-full h-48 overflow-hidden">
-          <img 
-            src={image} 
-            alt={title} 
-            className="w-full h-full object-cover transition-transform hover:scale-105 duration-500"
-          />
+    <motion.div
+      whileHover={{ scale: 1.02 }}
+      className={`bg-white rounded-xl shadow-lg overflow-hidden ${className}`}
+    >
+      <div className="relative h-48">
+        <img
+          src={image}
+          alt={title}
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+          <div className="text-white text-4xl">
+            {icon}
+          </div>
         </div>
-      )}
-      <CardHeader className={!image ? "pb-0" : ""}>
-        {icon && <div className="text-tmrm-gold mb-3">{icon}</div>}
-        <CardTitle className="text-xl">{title}</CardTitle>
-      </CardHeader>
-      <CardContent>
-        <CardDescription className="text-base text-gray-700">{description}</CardDescription>
-      </CardContent>
-    </Card>
+      </div>
+      <div className="p-6">
+        <h3 className="text-xl font-bold text-gray-900 mb-2">{title}</h3>
+        <p className="text-gray-600">{description}</p>
+      </div>
+    </motion.div>
   );
 };
 

@@ -9,6 +9,10 @@ import { Calendar, Users, CircleDollarSign, Link as LinkIcon, MessageCircle, Arr
 import ScrollToTop from '@/components/shared/ScrollToTop';
 import TestimonialsCarousel from '@/components/shared/TestimonialsCarousel';
 import { motion } from 'framer-motion';
+import QuranicVerse from '@/components/shared/QuranicVerse';
+import PrayerTimes from '@/components/shared/PrayerTimes';
+import IslamicCalendar from '@/components/shared/IslamicCalendar';
+import DynamicTheme from '@/components/shared/DynamicTheme';
 
 const Index = () => {
   const testimonials = [
@@ -41,13 +45,31 @@ const Index = () => {
   return (
     <>
       <Navbar />
+      <DynamicTheme />
       <main className="min-h-screen">
         <Hero
-          title="The Muslim Righteous Movement"
-          subtitle="منارة الأمل والرحمة"
-          description="Dedicated to alleviating the suffering of the underprivileged through Islamic charity and community service."
-          backgroundImage="/lovable-uploads/hero.jpeg"
+          title="Welcome to TMRM"
+          description="The Muslim Righteous Movement - Empowering communities through faith and action."
+          backgroundImage="https://images.unsplash.com/photo-1599475769344-9eeebbfd18e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
         />
+        
+        <section className="py-24 relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-b from-white to-gray-50"></div>
+          <div className="container mx-auto px-4 relative">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+            >
+              <h2 className="section-title text-center mb-16">Daily Inspiration</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <QuranicVerse />
+                <PrayerTimes />
+                <IslamicCalendar />
+              </div>
+            </motion.div>
+          </div>
+        </section>
         
         {/* About Section */}
         <section className="py-24 bg-pattern-light relative overflow-hidden">

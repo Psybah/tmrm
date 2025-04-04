@@ -26,10 +26,7 @@ const Navbar = () => {
       <div className="container px-4 py-3 mx-auto md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center">
-            <span className="text-xl font-bold text-tmrm-green">
-              TMRM
-              <span className="text-tmrm-gold ml-1">|</span>
-            </span>
+            <img src="/tmrm.svg" alt="TMRM Logo" className="h-8" />
             <span className="ml-2 text-sm font-medium hidden md:block">The Muslim Righteous Movement</span>
           </Link>
 

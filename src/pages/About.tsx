@@ -9,7 +9,7 @@ const About = () => {
     {
       year: "2020",
       title: "Foundation Year",
-      description: "The Muslim Righteous Movement was founded by a dedicated group of Muslims at Apata Kekere Mosque in Ibadan."
+      description: "Jamuhiyat Jalalullahi Society of Nigeria was founded by a dedicated group of Muslims at Apata Kekere Mosque in Ibadan."
     },
     {
       year: "2021",
@@ -52,7 +52,7 @@ const About = () => {
       <main className="min-h-screen">
         <Hero
           title="About Us"
-          description="Learn about our mission, history, and the people behind The Muslim Righteous Movement."
+          description="Learn about our mission, history, and the people behind Jamuhiyat Jalalullahi Society of Nigeria."
           backgroundImage="/tmrm/about.jpg"
           showCta={false}
         />
@@ -65,7 +65,7 @@ const About = () => {
                 <h2 className="section-title">Our Story</h2>
                 <div className="prose max-w-none">
                   <p>
-                    The Muslim Righteous Movement (TMRM) was founded in 2020 by a dedicated group of Muslims at the Apata Kekere Mosque in Ibadan, Nigeria. Our founders recognized the pressing needs in their community and felt called to action by the Islamic principles of charity (Sadaqah) and mandatory giving (Zakat).
+                    Jamuhiyat Jalalullahi Society of Nigeria (TMRM) was founded in 2020 by a dedicated group of Muslims at the Apata Kekere Mosque in Ibadan, Nigeria. Our founders recognized the pressing needs in their community and felt called to action by the Islamic principles of charity (Sadaqah) and mandatory giving (Zakat).
                   </p>
                   <p>
                     What began as a small initiative to support local families in need has grown into a broader movement dedicated to alleviating suffering and promoting Islamic values through action. Our community-centered approach ensures that we understand and effectively address the specific challenges faced by those we serve.

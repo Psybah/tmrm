@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">The Muslim Righteous Movement</h3>
+            <h3 className="text-xl font-bold mb-4">Jamuhiyat Jalalullahi Society of Nigeria</h3>
             <p className="mb-4">A Beacon of Hope and Compassion</p>
             <div className="flex space-x-4 mt-4">
               <a href="#" className="hover:text-tmrm-gold transition-colors">
@@ -75,7 +75,7 @@ const Footer = () => {
         <div className="pattern-divider my-6"></div>
         
         <div className="text-center opacity-80 text-sm">
-          <p>&copy; {new Date().getFullYear()} The Muslim Righteous Movement. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Jamuhiyat Jalalullahi Society of Nigeria. All rights reserved.</p>
         </div>
       </div>
     </footer>

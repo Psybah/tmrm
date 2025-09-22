@@ -41,7 +41,7 @@ const Index = () => {
       <Navbar />
       <main className="min-h-screen">
         <Hero
-          title="The Muslim Righteous Movement"
+          title="Jamuhiyat Jalalullahi Society of Nigeria"
           subtitle="منارة الأمل والرحمة"
           description="Dedicated to alleviating the suffering of the underprivileged through Islamic charity and community service."
           backgroundImage="/lovable-uploads/hero.jpeg"
@@ -54,7 +54,7 @@ const Index = () => {
               <div className="space-y-6">
                 <h2 className="section-title">Who We Are</h2>
                 <p className="text-lg">
-                  The Muslim Righteous Movement (TMRM) is a charitable organization founded in 2020 by a dedicated group of Muslims committed to serving humanity through the principles of Islam.
+                  Jamuhiyat Jalalullahi Society of Nigeria (TMRM) is a charitable organization founded in 2020 by a dedicated group of Muslims committed to serving humanity through the principles of Islam.
                 </p>
                 <p>
                   Our mission is to alleviate the suffering of underprivileged communities and individuals through sustainable development projects, educational initiatives, and humanitarian aid. Based at the Apata Kekere Mosque in Ibadan, Nigeria, we strive to be a beacon of hope and compassion.

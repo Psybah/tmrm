@@ -26,8 +26,8 @@ const Navbar = () => {
       <div className="container px-4 py-3 mx-auto md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center">
-            <img src="/tmrm.svg" alt="TMRM Logo" className="h-8" />
-            <span className="ml-2 text-sm font-medium hidden md:block">The Muslim Righteous Movement</span>
+            <img src="/logo.png" alt="TMRM Logo" className="h-8" />
+            <span className="ml-2 text-sm font-medium hidden md:block">Jamuhiyat Jalalullahi Society of Nigeria</span>
           </Link>
 
           {/* Mobile menu button */}

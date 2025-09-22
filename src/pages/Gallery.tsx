@@ -70,7 +70,7 @@ const Gallery = () => {
   const testimonials = [
     {
       id: 1,
-      quote: "The Muslim Righteous Movement stepped in when I had nowhere else to turn. My daughter needed urgent medical treatment, and I couldn't afford the hospital bills. They not only paid for her treatment but also followed up to ensure her recovery. I'm forever grateful for their compassion.",
+      quote: "Jamuhiyat Jalalullahi Society of Nigeria stepped in when I had nowhere else to turn. My daughter needed urgent medical treatment, and I couldn't afford the hospital bills. They not only paid for her treatment but also followed up to ensure her recovery. I'm forever grateful for their compassion.",
       author: "Aisha Lawal",
       role: "Mother of hospital bill beneficiary"
     },

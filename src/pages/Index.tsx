@@ -18,19 +18,19 @@ const Index = () => {
   const testimonials = [
     {
       id: 1,
-      quote: "When my daughter fell ill and I couldn't afford her hospital bills, TMRM stepped in and covered all expenses. I don't know what I would have done without their support.",
+      quote: "When my daughter fell ill and I couldn't afford her hospital bills, JJSN stepped in and covered all expenses. I don't know what I would have done without their support.",
       author: "Aisha Lawal",
       role: "Beneficiary"
     },
     {
       id: 2,
-      quote: "The monthly hospital visits organized by TMRM have brought so much comfort to patients who often feel forgotten. Their compassion is truly inspiring.",
+      quote: "The monthly hospital visits organized by JJSN have brought so much comfort to patients who often feel forgotten. Their compassion is truly inspiring.",
       author: "Dr. Ibrahim Olatunde",
       role: "Hospital Staff"
     },
     {
       id: 3,
-      quote: "As a volunteer, I've witnessed firsthand the positive impact TMRM has on our community. Their dedication to helping others embodies the true spirit of Islam.",
+      quote: "As a volunteer, I've witnessed firsthand the positive impact JJSN has on our community. Their dedication to helping others embodies the true spirit of Islam.",
       author: "Mohammed Abdullahi",
       role: "Volunteer"
     }
@@ -54,7 +54,7 @@ const Index = () => {
               <div className="space-y-6">
                 <h2 className="section-title">Who We Are</h2>
                 <p className="text-lg">
-                  Jamuhiyat Jalalullahi Society of Nigeria (TMRM) is a charitable organization founded in 2020 by a dedicated group of Muslims committed to serving humanity through the principles of Islam.
+                  Jamuhiyat Jalalullahi Society of Nigeria (JJSN) is a charitable organization founded in 2020 by a dedicated group of Muslims committed to serving humanity through the principles of Islam.
                 </p>
                 <p>
                   Our mission is to alleviate the suffering of underprivileged communities and individuals through sustainable development projects, educational initiatives, and humanitarian aid. Based at the Apata Kekere Mosque in Ibadan, Nigeria, we strive to be a beacon of hope and compassion.

@@ -65,13 +65,13 @@ const About = () => {
                 <h2 className="section-title">Our Story</h2>
                 <div className="prose max-w-none">
                   <p>
-                    Jamuhiyat Jalalullahi Society of Nigeria (TMRM) was founded in 2020 by a dedicated group of Muslims at the Apata Kekere Mosque in Ibadan, Nigeria. Our founders recognized the pressing needs in their community and felt called to action by the Islamic principles of charity (Sadaqah) and mandatory giving (Zakat).
+                    Jamuhiyat Jalalullahi Society of Nigeria (JJSN) was founded in 2020 by a dedicated group of Muslims at the Apata Kekere Mosque in Ibadan, Nigeria. Our founders recognized the pressing needs in their community and felt called to action by the Islamic principles of charity (Sadaqah) and mandatory giving (Zakat).
                   </p>
                   <p>
                     What began as a small initiative to support local families in need has grown into a broader movement dedicated to alleviating suffering and promoting Islamic values through action. Our community-centered approach ensures that we understand and effectively address the specific challenges faced by those we serve.
                   </p>
                   <p>
-                    Today, TMRM continues to operate from our spiritual home at Apata Kekere Mosque, but our impact extends throughout Ibadan and beyond. We remain committed to our founding principles while expanding our reach and capacity to help those in need.
+                    Today, JJSN continues to operate from our spiritual home at Apata Kekere Mosque, but our impact extends throughout Ibadan and beyond. We remain committed to our founding principles while expanding our reach and capacity to help those in need.
                   </p>
                 </div>
               </div>

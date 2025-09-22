@@ -76,19 +76,19 @@ const Gallery = () => {
     },
     {
       id: 2,
-      quote: "As a volunteer with TMRM, I've witnessed firsthand the impact of their work in the community. From hospital visits to educational support, they truly embody the Islamic principles of compassion and charity. It's an honor to be part of this movement.",
+      quote: "As a volunteer with JJSN, I've witnessed firsthand the impact of their work in the community. From hospital visits to educational support, they truly embody the Islamic principles of compassion and charity. It's an honor to be part of this movement.",
       author: "Ibrahim Adewale",
       role: "Volunteer"
     },
     {
       id: 3,
-      quote: "The educational support provided by TMRM changed my life. When my family couldn't afford my school fees, TMRM stepped in and ensured I could continue my education. Today, I'm studying medicine and hope to give back to my community in the future.",
+      quote: "The educational support provided by JJSN changed my life. When my family couldn't afford my school fees, JJSN stepped in and ensured I could continue my education. Today, I'm studying medicine and hope to give back to my community in the future.",
       author: "Fatima Olatunji",
       role: "Student beneficiary"
     },
     {
       id: 4,
-      quote: "The monthly hospital visits by TMRM volunteers bring so much joy and comfort to our patients. Beyond the financial support they provide, their presence and prayers make a significant difference in the recovery journey of many patients.",
+      quote: "The monthly hospital visits by JJSN volunteers bring so much joy and comfort to our patients. Beyond the financial support they provide, their presence and prayers make a significant difference in the recovery journey of many patients.",
       author: "Dr. Kabir Mohammed",
       role: "Local hospital staff"
     }

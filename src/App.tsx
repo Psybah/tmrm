@@ -10,6 +10,9 @@ import Initiatives from "./pages/Initiatives";
 import Donate from "./pages/Donate";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
+import Volunteer from "./pages/Volunteer";
+import AdminLogin from "./pages/admin/Login";
+import AdminDashboard from "./pages/admin/Dashboard";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/shared/ScrollToTop";
 
@@ -28,6 +31,9 @@ const App = () => (
           <Route path="/donate" element={<Donate />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/volunteer" element={<Volunteer />} />
+          <Route path="/admin/login" element={<AdminLogin />} />
+          <Route path="/admin" element={<AdminDashboard />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <ScrollToTop />

@@ -275,7 +275,7 @@ const Contact = () => {
                 size="lg" 
                 className="bg-tmrm-gold hover:bg-tmrm-gold-light text-white"
               >
-                <a href="https://forms.gle/volunteer" target="_blank" rel="noopener noreferrer">
+                <a href="/volunteer">
                   Register as Volunteer
                 </a>
               </Button>

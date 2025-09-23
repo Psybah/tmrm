@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-xl font-bold mb-4">Jamuhiyat Jalalullahi Society of Nigeria</h3>
-            <p className="mb-4">A Beacon of Hope and Compassion</p>
+            <p className="mb-4">Guided by Divine Light, Serving with Compassion</p>
             <div className="flex space-x-4 mt-4">
               <a href="#" className="hover:text-tmrm-gold transition-colors">
                 <Facebook size={20} />
@@ -18,7 +18,7 @@ const Footer = () => {
               <a href="#" className="hover:text-tmrm-gold transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="https://wa.me/2347055034490" target="_blank" rel="noopener noreferrer" className="hover:text-tmrm-gold transition-colors">
+              <a href="https://wa.me/23480335352530" target="_blank" rel="noopener noreferrer" className="hover:text-tmrm-gold transition-colors">
                 <MessageCircle size={20} />
               </a>
             </div>
@@ -58,15 +58,15 @@ const Footer = () => {
                     <circle cx="12" cy="10" r="3"></circle>
                   </svg>
                 </div>
-                <div>Apata Kekere Mosque,<br />Ibadan, Oyo State, Nigeria</div>
+                <div>Number 61 Darlington Street Ago Tapa,<br />Mokola, Ibadan</div>
               </li>
               <li className="flex items-center">
                 <Phone size={16} className="mr-3" />
-                <a href="tel:+2347055034490" className="hover:text-tmrm-gold transition-colors">+234 705 503 4490</a>
+                <a href="tel:+23480335352530" className="hover:text-tmrm-gold transition-colors">0803 353 52530</a>
               </li>
               <li className="flex items-center">
                 <Mail size={16} className="mr-3" />
-                <a href="mailto:contact@tmrm.org" className="hover:text-tmrm-gold transition-colors">contact@tmrm.org</a>
+                <a href="mailto:Jalalullahi2025@gmail.com" className="hover:text-tmrm-gold transition-colors">Jalalullahi2025@gmail.com</a>
               </li>
             </ul>
           </div>

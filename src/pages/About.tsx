@@ -30,19 +30,44 @@ const About = () => {
 
   const leaders = [
     {
-      name: "Sen. Sharafadeen Abiodun Alli",
-      role: "Ekarun Balodun of Ibadanland",
-      image: "/sara.png"
+      name: "Alhaji Dauda Akeygbayi",
+      role: "Chief Missioner",
+      image: "/placeholder.svg"
     },
     {
-      name: "Hon. (Engr.) Aderemi Oseni",
-      role: "Federal Lawmaker",
-      image: "/aderemi.png"
+      name: "Alhaji Saheed Cisse",
+      role: "Vice Missioner",
+      image: "/placeholder.svg"
     },
     {
-      name: "Alhaji (Hon.) Taofiq Adesina",
-      role: "Senator",
-      image: "/taofiq.png"
+      name: "Alhaji Kazeem Muhammed Abese",
+      role: "Treasurer",
+      image: "/placeholder.svg"
+    },
+    {
+      name: "Alhaji Maruf Opeloyeru",
+      role: "General Sectr",
+      image: "/placeholder.svg"
+    },
+    {
+      name: "Alhaji Rasheed Elejele",
+      role: "S.A All Matters",
+      image: "/placeholder.svg"
+    },
+    {
+      name: "Alhaji Murtala Onilenla Alamu",
+      role: "Matron",
+      image: "/placeholder.svg"
+    },
+    {
+      name: "Alhaji Waliyullahi Okikiola",
+      role: "S.A. Finance",
+      image: "/placeholder.svg"
+    },
+    {
+      name: "Alhaji Muhammed Yusuf Akorede",
+      role: "President",
+      image: "/placeholder.svg"
     }
   ];
 

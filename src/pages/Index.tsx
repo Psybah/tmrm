@@ -43,7 +43,7 @@ const Index = () => {
         <Hero
           title="Jamuhiyat Jalalullahi Society of Nigeria"
           subtitle="منارة الأمل والرحمة"
-          description="Dedicated to alleviating the suffering of the underprivileged through Islamic charity and community service."
+          description="Guided by Divine Light, Serving with Compassion"
           backgroundImage="/lovable-uploads/hero.jpeg"
         />
         
@@ -296,8 +296,8 @@ const Index = () => {
                   Contact Us
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-tmrm-green-dark hover:bg-white hover:text-tmrm-green-dark">
-                <a href="https://wa.me/2347055034490" target="_blank" rel="noopener noreferrer" className="flex items-center">
+                  <Button asChild size="lg" variant="outline" className="border-white text-tmrm-green-dark hover:bg-white hover:text-tmrm-green-dark">
+                <a href="https://wa.me/23480335352530" target="_blank" rel="noopener noreferrer" className="flex items-center">
                   <MessageCircle size={18} className="mr-2" /> 
                   Join Our WhatsApp
                 </a>

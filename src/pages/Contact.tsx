@@ -82,8 +82,8 @@ const Contact = () => {
                       <div>
                         <h3 className="text-lg font-medium mb-1">Our Location</h3>
                         <p className="text-gray-600">
-                          Apata Kekere Mosque,<br />
-                          Ibadan, Oyo State, Nigeria
+                          Number 61 Darlington Street Ago Tapa,<br />
+                          Mokola, Ibadan
                         </p>
                       </div>
                     </div>
@@ -97,7 +97,7 @@ const Contact = () => {
                       <div>
                         <h3 className="text-lg font-medium mb-1">Phone</h3>
                         <p className="text-gray-600">
-                          <a href="tel:+2347055034490" className="hover:text-tmrm-green">+234 705 503 4490</a>
+                          <a href="tel:+23480335352530" className="hover:text-tmrm-green">0803 353 52530</a>
                         </p>
                       </div>
                     </div>
@@ -111,7 +111,7 @@ const Contact = () => {
                       <div>
                         <h3 className="text-lg font-medium mb-1">Email</h3>
                         <p className="text-gray-600">
-                          <a href="mailto:contact@tmrm.org" className="hover:text-tmrm-green">contact@tmrm.org</a>
+                          <a href="mailto:Jalalullahi2025@gmail.com" className="hover:text-tmrm-green">Jalalullahi2025@gmail.com</a>
                         </p>
                       </div>
                     </div>
@@ -126,7 +126,7 @@ const Contact = () => {
                         <h3 className="text-lg font-medium mb-1">Join Our Community</h3>
                         <p className="text-gray-600">
                           <a 
-                            href="https://wa.me/2347055034490" 
+                            href="https://wa.me/23480335352530" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="flex items-center hover:text-tmrm-green"
@@ -251,8 +251,8 @@ const Contact = () => {
                 <div className="w-full h-full flex items-center justify-center bg-gray-300">
                   <div className="text-center p-8">
                     <MapPin size={48} className="text-tmrm-green mx-auto mb-4" />
-                    <p className="text-lg font-medium">Apata Kekere Mosque</p>
-                    <p>Ibadan, Oyo State, Nigeria</p>
+                    <p className="text-lg font-medium">Number 61 Darlington Street Ago Tapa</p>
+                    <p>Mokola, Ibadan</p>
                   </div>
                 </div>
               </div>
